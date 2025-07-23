@@ -4,6 +4,7 @@ uvicorn[standard]==0.24.0
 
 # HTTP Client
 httpx==0.25.2
+python-dateutil==2.8.2
 
 # Caching (using Vercel KV or simple in-memory)
 redis==5.0.1
