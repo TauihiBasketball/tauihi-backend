@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "env": {
+    "GENIUS_SPORTS_API_KEY": "4b1a43036f40c7762a694255636eab03",
+    "GENIUS_SPORTS_BASE_URL": "https://api.wh.geniussports.com/v1/basketball"
+  }
+} 

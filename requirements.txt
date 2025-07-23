@@ -1,0 +1,16 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# HTTP Client
+httpx==0.25.2
+
+# Caching (using Vercel KV or simple in-memory)
+redis==5.0.1
+
+# Environment & Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Utilities
+python-multipart==0.0.6 
